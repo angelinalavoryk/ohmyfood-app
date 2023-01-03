@@ -5,29 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/84819ae5de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
     <title>Oh my food</title>
 </head>
 <body>
     <header>
-        <div>
-            <img src="images/logo/ohmyfood.png" alt="logo du site Oh my food" />
+        <div class="header">
+            <img class="header__logo" src="images/logo/ohmyfood.png" alt="logo du site Oh my food" />
         </div>
     </header>
 
     <main>
-        <section>
-            <div>
-                <i class="fa-solid fa-location-dot"></i>
-                <p>Paris, Belleville</p>
+        <section class="location">
+            <div class="location__search">
+                <i class="location__search-icon fa-solid fa-location-dot"></i>
+                <p class="location__search-city">Paris, Belleville</p>
             </div>
         </section>
-        <section>
-            <div>
-                <h1>Réservez le menu qui vous convient</h1>
-                <p>Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
+
+        <section class="presentation__container">
+            <div class="presention">
+                <h1 class="presentation__text-h1">Réservez le menu qui vous convient</h1>
+                <p class="presentation__text-p">Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
+                <button class="presentation__button"><a href="#" class="presentation__button-link"> Explorer nos restaurants</a></button>
             </div>
-            <div>
-                <button>Explorer nos restaurants</button>
+        </section>
+
+        <section class="functions__container">
+            <h2 class="functions__title-h2">Fonctionnement</h2>
+            <div class="functions__operations">
+                <a class="functions__operation-link" href="#">
+                    <div class="functions__operation-elements">
+                        <div class="functions__operation-circle"><span class="functions__operation--circle-number">1</span></div>
+                        <i class="functions__operation-icons fa-solid fa-mobile-screen-button"></i>
+                        <p class="functions__operation-text">Choisissez un restaurant</p>
+                    </div>
+                </a>
             </div>
         </section>
     </main>
