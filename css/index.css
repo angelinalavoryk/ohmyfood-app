@@ -60,12 +60,8 @@ body {
   margin-top: 15px;
   background: linear-gradient(352deg, #9356DC, #FF79DA);
   box-shadow: 1px 2px 6px 2px rgba(0, 0, 0, 0.2);
-}
-
-.presentation__button-link {
   color: #f6f6f6;
-  text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .functions__container {
@@ -79,10 +75,12 @@ body {
 .functions__operation-elements {
   display: flex;
   align-items: center;
-  justify-content: center;
-  border: 1px solid transparent;
-  border-radius: 20px;
+  justify-content: space-around;
+  border: none;
+  border-radius: 20px 20px;
+  box-shadow: 1px 2px 6px 2px rgba(0, 0, 0, 0.2);
   background: #f6f6f6;
+  height: 3.5rem;
 }
 
 /*# sourceMappingURL=index.css.map */
