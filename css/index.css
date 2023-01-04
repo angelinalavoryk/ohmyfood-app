@@ -65,11 +65,11 @@ body {
   cursor: pointer;
 }
 
-.functions__container {
+.container {
   padding: 30px;
 }
 
-.functions__title-h2 {
+.functions__restaurants--title-h2 {
   font-size: 1.5rem;
 }
 
@@ -106,6 +106,20 @@ body {
 
 .functions__operation-icons {
   color: #787777;
+}
+
+.restaurants__container {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurants__cards-article {
+  background: #ffffff;
+  padding: 5px 5px 0px 5px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 6px 2px rgba(0, 0, 0, 0.2);
+  transition: all ease-out 0.1s;
 }
 
 /*# sourceMappingURL=index.css.map */

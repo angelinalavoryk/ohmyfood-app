@@ -13,7 +13,7 @@ body{
 }
 
 //Main
-//Section location
+//location
 .location{
     background-color: #E5E5E5;
 }
@@ -53,26 +53,29 @@ body{
 }
 
 .presentation__button{
-border: none;
-border-radius: 50px;
-padding: 20px;
-margin-top: 15px;
-background: linear-gradient(352deg, #9356DC, #FF79DA);
-box-shadow: 1px 2px 6px 2px rgb(0 0 0 / 20%);
-color: #f6f6f6;
-font-size: 1rem;
-cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 15px;
+    background: linear-gradient(352deg, #9356DC, #FF79DA);
+    box-shadow: 1px 2px 6px 2px rgb(0 0 0 / 20%);
+    color: #f6f6f6;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 
-//Section functions
-.functions__container{
+//Sections functions + restaurants
+.container{
     padding: 30px; 
 }
 
-.functions__title-h2{
+.functions__restaurants--title-h2{
     font-size: 1.5rem;
 }
+
+//functions
+
 .functions__operation-elements{
     display: flex;
     align-items: center;
@@ -107,6 +110,21 @@ cursor: pointer;
 
 .functions__operation-icons{
     color: #787777; 
+}
+
+//restaurants
+.restaurants__container{
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+
+}
+.restaurants__cards-article{
+    background:                 #ffffff;
+    padding:                    5px 5px 0px 5px;
+    border-radius:              20px;
+    box-shadow: 1px 2px 6px 2px rgb(0 0 0 / 20%);
+    transition:                 all ease-out 0.1s;
 }
 
 
