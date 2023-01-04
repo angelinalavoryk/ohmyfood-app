@@ -61,6 +61,7 @@ background: linear-gradient(352deg, #9356DC, #FF79DA);
 box-shadow: 1px 2px 6px 2px rgb(0 0 0 / 20%);
 color: #f6f6f6;
 font-size: 1rem;
+cursor: pointer;
 }
 
 
@@ -75,13 +76,15 @@ font-size: 1rem;
 .functions__operation-elements{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    padding-left: 30px;
+    gap: 30px;
     border: none;
     border-radius: 20px 20px;
     box-shadow: 1px 2px 6px 2px rgb(0 0 0 / 20%);
     background: #f6f6f6;
     margin-bottom: 20px;
     height: 3.5rem;
+    cursor: pointer;
 }
 
 .functions__operation-circle{
@@ -95,14 +98,19 @@ font-size: 1rem;
     border-radius: 50%;
     position: absolute;
     left: 1.2rem;
-    
-    
-
 }
+
+.functions__operation-elements:hover{
+    background: #F5EDFF;
+}
+
 
 .functions__operation-icons{
-    color: #787777;
+    color: #787777; 
 }
+
+
+
 
 
 
