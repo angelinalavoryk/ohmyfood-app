@@ -1,0 +1,116 @@
+.header__previous--page-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.menu__img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu__restaurants--cards-section{
+    background: $color-menu-section;
+    border-radius: 3rem 3rem 0 0;
+    padding: 2rem 1.5rem;
+    position: relative;
+    margin-top: -3rem;
+}
+
+.menu__cards--title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__title-h1{
+    margin: 0;
+    font-family: Shrikhand,"cursive";
+}
+
+.menu__cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.menu__cards-title{
+    padding-top: 2rem;
+    border-bottom: 0.3rem solid $color-tertiary;
+    width: 2.5rem;
+}
+
+.menu__cards--title-h2{
+    color: $color-gray;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+}
+
+.menu__cards-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: $color-white;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 0.7rem 1.2rem 0.7rem 1rem;
+    box-shadow: 1px 2px 6px 2px rgb(0 0 0 / 20%);
+    
+}
+
+.menu__cards--text-h3{
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.menu__cards--text-p{
+    margin: 0;
+    color: $color-gray;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+.menu__cards--dishes-price{
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu__cards--price-number{
+    font-weight: 500;
+    font-size: 1rem;
+    color: $color-dark-gray;
+    margin: 0;
+}
+
+.menu__cards--price-euro{
+    font-weight: 500;
+    margin: 0;
+}
+
+.menu__order-container{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.menu__order-button{
+    padding: 1rem;
+    border-radius: 50px;
+    width: 100%;
+    color: $color-white;
+    border: none;
+    background: linear-gradient(352deg, $color-primary, $color-secondary);
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
