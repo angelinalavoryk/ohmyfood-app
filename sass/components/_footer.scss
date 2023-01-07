@@ -1,0 +1,36 @@
+//footer
+.footer{
+    background: #3b3a3a;
+    color: #ffffff;
+}
+
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.1rem;
+}
+
+
+.footer__logo-h2{
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.footer__nav{
+    padding: 0;
+}
+
+.footer__nav-elements{
+    list-style: none;
+    padding-bottom: 8px;
+}
+
+.fotter__nav--elements-link{
+    text-decoration: none;
+    color: inherit; 
+}
+
+.footer__nav-icon{
+    width: 1.2rem;
+    margin-right: 0.5rem;
+}
