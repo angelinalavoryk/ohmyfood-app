@@ -5,6 +5,7 @@
 
 .header__previous--page-icon{
     font-size: 1.3rem;
+    margin-left: 1rem;
 }
 
 
@@ -116,6 +117,7 @@
     color: $color-white;
     border: none;
     background: linear-gradient(352deg, $color-primary, $color-secondary);
+    box-shadow: 1px 2px 6px 2px rgb(0 0 0 / 20%);
     font-size: 1.1rem;
     font-weight: 500;
     cursor: pointer;
