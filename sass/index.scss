@@ -16,6 +16,9 @@ body{
 
 
 //Main
+.main{
+    margin-top: 2.5rem;
+}
 //location
 .location{
     background-color: #E5E5E5;
@@ -23,13 +26,15 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: pixelToRem(25);
+        color: $color-dark-gray;
+        gap: pixelToRem(10);
+        margin-left: -10px;
 
         &-icon{
-            font-size: 20px;
+            font-size: 1.3rem;
         }
         &-city{
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
     }
 }
