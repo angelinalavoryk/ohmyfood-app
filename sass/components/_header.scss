@@ -2,21 +2,21 @@
 .header__link-img{
     display: flex;
     justify-content: center;
-    padding: 0.3rem;
+    padding: 0.9rem;
 }
 .header__logo-img{
-    width: 50%;
+    width: 55%;
 }
 
 .header{
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    background-color: $color-white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
+    // overflow: hidden;
+    // background-color: $color-white;
+    // position: fixed;
+    // top: 0;
+    // width: 100%;
+    // z-index: 2;
 }
 
