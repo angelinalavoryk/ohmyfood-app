@@ -63,10 +63,18 @@
     
 }
 
+.menu__cards-dishes{
+    width: 80%;
+    
+}
+
 .menu__cards--text-h3{
     margin: 0;
     font-size: 1.1rem;
     font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;  
+    text-overflow: ellipsis;
 }
 
 .menu__cards--text-p{
@@ -74,6 +82,9 @@
     color: $color-gray;
     font-size: 0.9rem;
     font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;  
+    text-overflow: ellipsis;
 }
 
 
