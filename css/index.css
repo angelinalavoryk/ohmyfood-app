@@ -106,58 +106,60 @@
 
 .menu__cards-article {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   background: #ffffff;
   width: 100%;
   border-radius: 1rem;
-  padding: 0.7rem 1.2rem 0.7rem 1rem;
   box-shadow: 1px 2px 6px 2px rgba(0, 0, 0, 0.2);
 }
 
-.menu__cards-dishes {
+.menu__cards-info {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0.7rem 1.2rem 0.7rem 1rem;
+  gap: 1rem;
   width: 80%;
+}
+
+.menu__cards-dishes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .menu__cards--text-h3 {
   margin: 0;
-  font-size: 1.1rem;
-  font-weight: 500;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .menu__cards--text-p {
   margin: 0;
-  color: #787777;
-  font-size: 0.9rem;
-  font-weight: 400;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .menu__cards--dishes-price {
+  margin: 0;
   display: flex;
   align-items: flex-end;
-  margin: 0;
-  padding: 0;
-}
-
-.menu__cards--price-number {
-  font-weight: 500;
-  font-size: 1rem;
-  color: #3b3a3a;
-  margin: 0;
-}
-.menu__cards--price-number-euro {
-  font-weight: 500;
-  margin: 0;
 }
 
 .menu__cards--dishes-check {
-  display: none;
+  background-color: #99E2D0;
+  cursor: pointer;
+  border-radius: 0 1rem 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.menu__cards--check-icon {
+  color: #ffffff;
+  font-size: 1.6rem;
 }
 
 .menu__order-container {
