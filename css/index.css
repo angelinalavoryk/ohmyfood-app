@@ -213,6 +213,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+@keyframes icon__like {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 .location {
   background-color: #E5E5E5;
 }
@@ -379,7 +387,6 @@ body {
   color: #3b3a3a;
 }
 .restaurants__icon-like:hover {
-  animation: fill 1s ease-out;
   background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
