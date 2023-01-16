@@ -3,6 +3,7 @@
 @import 'components/footer';
 @import 'pages/menu-pages';
 @import 'utils';
+@import 'animations';
 
 
 *{
@@ -32,15 +33,6 @@ body{
 //             background-size: 20% 16px;
 //     }
 // }
-
-@keyframes icon__like {
-    from{
-        transform: scale(0);
-    }
-    to{
-        transform: scale(1);
-    }
-}
 
 
 //Main
@@ -81,7 +73,7 @@ body{
     }
     &__text-p{
         color:                      $color-gray;
-        font-size:                  1.2rem;
+        font-size:                  1rem;
     }
     &__button{
         border:                     none;
@@ -91,9 +83,17 @@ body{
         background:                 linear-gradient(352deg, $color-primary, $color-secondary);
         box-shadow:                 1px 2px 6px 2px rgb(0 0 0 / 20%);
         color:                      $color-most-clear-gray;
-        font-size:                  1rem;
+        font-size:                  1.2rem;
+        font-weight: 700;
         cursor:                     pointer;
+        transition-duration: 0.25s;
+        &:hover{
+            filter: brightness(1.1);
+            box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
+        }
+        
     }
+    
 }
 
 //Sections functions + restaurants
@@ -202,17 +202,18 @@ body{
     margin-bottom: 0;
 }
 
+
+//heart
 .restaurants__container-icon{
     position: absolute;
     right: 0.1rem;
     padding: 1rem;
-    
 }
-
 .restaurants__icon-like{
     font-size: 1.8rem;
     color: $color-dark-gray;
     &:hover {
+        transform: scale(1.2);
         background: linear-gradient($color-secondary, $color-primary);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -221,7 +222,7 @@ body{
 }
 
 
-
+//dessin coeur
 // .heart-square {
 //     width: 1.5rem;
 //     height: 1.5rem;
