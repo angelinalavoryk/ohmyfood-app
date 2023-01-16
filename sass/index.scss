@@ -14,21 +14,24 @@ body{
     font-family:                   'Roboto', sans-serif;
 }
 
-// [class*=classic]:before {
+// body::before {
 //     content:"Ohmyfood";
-//   }
-//   .classic-2 {
-//     font-weight: bold;
 //     font: 30px Shrikhand,"cursive";
-//     // font-size: 50px;
+//     font-size: 3rem;
+//     margin-left: 50px;
+//   }
+//   .loader {
+//     font-weight: bold;
+//     margin-left: 50px;
 //     padding-bottom: 8px;
 //     background:linear-gradient(currentColor 0 0) bottom left/0% 3px no-repeat;
 //     animation:c2 2s linear infinite;
 //   }
-//   @keyframes c2 {to{
-//     background-size: 10% 5px;
-//     color: red;
-// }}
+//   @keyframes c2 {
+//     to  {
+//             background-size: 20% 16px;
+//     }
+// }
 
 
 
