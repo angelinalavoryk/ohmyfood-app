@@ -217,14 +217,12 @@
   }
 }
 @keyframes menu__elements {
-  0% {
+  from {
+    transform: translatey(60%);
     opacity: 0;
-    transform: translateY(50%);
   }
-  50% {
-    opacity: 1;
-  }
-  100% {
+  to {
+    transform: translatey(0%);
     opacity: 1;
   }
 }
