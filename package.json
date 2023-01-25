@@ -1,0 +1,19 @@
+{
+  "name": "projet_3_lavoryk_anhelina",
+  "version": "1.0.0",
+  "description": "Oh my food",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/index.scss:css/index.css sass/resto.scss:css/resto.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelinalavoryk/projet_3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelinalavoryk/projet_3/issues"
+  },
+  "homepage": "https://github.com/angelinalavoryk/projet_3#readme"
+}
