@@ -17,19 +17,6 @@ body{
 
 
 
-// body::before {
-//     content:"Ohmyfood";
-//     font: 30px Shrikhand,"cursive";
-//     font-size: 3rem;
-//     margin-left: 50px;
-//   }
-//   .loader {
-//     font-weight: bold;
-//     margin-left: 50px;
-//     padding-bottom: 8px;
-//     background:linear-gradient(currentColor 0 0) bottom left/0% 3px no-repeat;
-//     animation:homeLoader 2s linear infinite;
-//   }
  
 
 
@@ -158,6 +145,7 @@ body{
     text-decoration: none;
     color: inherit;
     position: relative;
+
 }
 .restaurants__cards-article{
     background: $color-white;
@@ -201,48 +189,88 @@ body{
 }
 
 
+
 //heart
 .restaurants__container-icon{
     position: absolute;
     right: 0.1rem;
     padding: 1rem;
-}
-.restaurants__icon-like{
     font-size: 1.8rem;
-    color: $color-dark-gray;
-    &:hover {
+}
+.restaurants__icon-like--full{
+    display: none;
+}
+
+.restaurants__container-icon:hover{
+    .restaurants__icon-like--empty{
+        display: none;
+    }
+    .restaurants__icon-like--full{
+        display: inline-block;
+        font-weight: bold;
+        transform: scale(1.1);
         background: linear-gradient($color-secondary, $color-primary);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-weight: bold;
     }
 }
 
 
-//dessin coeur
-// .heart-square {
-//     width: 1.5rem;
-//     height: 1.5rem;
-//     background-color: #b0a8a7;
-//     position: relative;
-//     transform: rotate(45deg);
-//   }
-  
-//   .heart-circle {
-//     width: 100%;
-//     height: 100%;
-//     border-radius: 50%;
-//     background-color: #b0a8a7;
+//heart le tout premier qui marche avec une seule icone
+// .restaurants__container-icon{
 //     position: absolute;
-//   }
-  
-//   .heart-circle:nth-of-type(1) {
-//     top: -50%;
-//   }
-  
-//   .heart-circle:nth-of-type(2) {
-//     left: -50%;
-//   }
+//     right: 0.1rem;
+//     padding: 1rem;
+// }
+// .restaurants__icon-like{
+//     font-size: 1.8rem;
+//     color: $color-dark-gray;
+//     &:hover {
+//         background: linear-gradient($color-secondary, $color-primary);
+//         -webkit-background-clip: text;
+//         -webkit-text-fill-color: transparent;
+//         font-weight: bold;
+//     }
+// }
+
+
+//heart fait avec Alban 
+// .restaurants__container-icon{
+//     position: absolute;
+//     right: 0.1rem;
+//     padding: 1rem;
+//     font-size: 1.8rem;
+//     &:hover{
+//         .restaurants__icon-like--plain{
+//             display: inline-block;
+//         }
+//         .restaurants__icon-like--empty{
+//             display: none;
+//         }
+//     }
+//     .restaurants__icon-like{
+//         &--plain{
+//             transition: opacity 0.3s linear 0.5s;
+//             opacity: 0;
+//             background: linear-gradient($color-secondary, $color-primary);
+//             -webkit-background-clip: text;
+//             background-clip: text;
+//             -webkit-text-fill-color: transparent;
+//             &:hover{
+//                 opacity: 1;
+//             }
+//         }
+//         &--empty{
+//             display: inline-block;
+//         }
+//     }
+// }
+
+
+
+
+
 
 
 

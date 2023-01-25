@@ -1,14 +1,14 @@
-@keyframes homeLoader {
-  to  {
-          background-size: 20% 16px;
-  }
-}
+// @keyframes homeLoader {
+//   to  {
+//           background-size: 20% 16px;
+//   }
+// }
 
 // @keyframes  menu__elements{
 // 	0%{
 // 		opacity:0;
 //     transform:translateY(50%);
-// 	}
+// 	  }
 // 	}
 
 // 	100%{
@@ -18,11 +18,11 @@
 
 @keyframes menu__elements {
   from {
-    transform: translatey(60%);
+    transform: translateY(60%);
     opacity: 0;
   }
   to {
-    transform: translatey(0%);
+    transform: translateY(0%);
     opacity: 1;
   }
 }

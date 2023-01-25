@@ -211,18 +211,13 @@
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-@keyframes homeLoader {
-  to {
-    background-size: 20% 16px;
-  }
-}
 @keyframes menu__elements {
   from {
-    transform: translatey(60%);
+    transform: translateY(60%);
     opacity: 0;
   }
   to {
-    transform: translatey(0%);
+    transform: translateY(0%);
     opacity: 1;
   }
 }
@@ -400,17 +395,24 @@ body {
   position: absolute;
   right: 0.1rem;
   padding: 1rem;
+  font-size: 1.8rem;
 }
 
-.restaurants__icon-like {
-  font-size: 1.8rem;
-  color: #3b3a3a;
+.restaurants__icon-like--full {
+  display: none;
 }
-.restaurants__icon-like:hover {
+
+.restaurants__container-icon:hover .restaurants__icon-like--empty {
+  display: none;
+}
+.restaurants__container-icon:hover .restaurants__icon-like--full {
+  display: inline-block;
+  font-weight: bold;
+  transform: scale(1.1);
   background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
 }
 
 /*# sourceMappingURL=index.css.map */
