@@ -15,8 +15,11 @@ body{
     font-family:                   'Roboto', sans-serif;
 }
 
-.loader__container{
-    // height: 100vh;
+
+
+
+//loader 2
+.center{
     background: $color-white;
     position: fixed;
     height: 100%;
@@ -24,25 +27,78 @@ body{
     top: 0;
     z-index: 1;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     animation: spinnerOff 0.2s 3s forwards;
+    
 }
 
-.loader {
-    border: 5px solid $color-most-clear-gray;
-    border-radius: 50%;
-    border-top: 5px solid $color-primary;
-    border-right: 5px solid $color-secondary;
-    border-bottom: 5px solid $color-tertiary;
-    width: 65px;
-    height: 65px;
+.ring{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-animation: spinner 2s linear infinite;
-    animation: spinner 2s linear infinite;
-  }
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    animation: ring 2s infinite;   
+}
+
+.ring:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px $color-dark-gray;
+}
+
+.ring-text{
+    color: $color-dark-gray;
+    font-family: Shrikhand,"cursive";
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 200px;
+
+}
+
+
+
+//loader 1
+// .loader__container{
+    // height: 100vh;
+//     background: $color-white;
+//     position: fixed;
+//     height: 100%;
+//     width: 100%;
+//     top: 0;
+//     z-index: 1;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     animation: spinnerOff 0.2s 2s forwards;
+// }
+
+// .loader {
+//     border: 5px solid $color-most-clear-gray;
+//     border-radius: 50%;
+//     border-top: 5px solid $color-primary;
+//     border-right: 5px solid $color-secondary;
+//     border-bottom: 5px solid $color-tertiary;
+//     width: 65px;
+//     height: 65px;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     -webkit-animation: spinner 2s linear infinite;
+//     animation: spinner 2s linear infinite;
+//   }
+
+
+
+
+
+
 
  
 //Main
@@ -215,7 +271,7 @@ body{
 
 
 
-//heart
+//heart icone cards restaurants
 .restaurants__container-icon{
     position: absolute;
     right: 0.1rem;
