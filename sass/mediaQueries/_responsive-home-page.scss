@@ -1,0 +1,96 @@
+
+//TABLETTE
+@include mediaminwidth(768px){
+	body{
+		// background:SlateBlue;
+	}
+    //loader
+    .loader__ring{
+        width: 160px;
+        height: 160px;
+    }
+
+    .loader__ring-text {
+        font-size: 1.7rem;
+    }
+
+    //header
+    .header__link-img{
+        padding: 1.3rem;
+    }
+
+    .header__logo-img{
+        width: 65%;
+    }
+    //footer
+    .footer__logo-container{
+        display: flex;
+        justify-content: center;
+        padding: 0.8rem;
+    }
+    .footer__logo-h2{
+        font-size: 1.8rem;
+    }
+    .footer__nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.8rem;
+        
+    }
+    .fotter__nav--elements-link{
+        font-size: 1.2rem;
+    }
+
+    //main
+    //section location
+    .location__search-icon{
+        font-size: 1.2rem;
+    }
+    .location__search-city{
+        font-size: 1.1rem;
+    }
+
+    //section presentation
+    .presentation__text-h1{
+        font-size: 2.2rem;
+    }
+    .presentation__text-p{
+        font-size: 1.1rem;
+    }
+
+    .presentation__button{
+        font-size: 1.2rem;
+    }
+
+    //sections functions + restaurants
+    .functions__restaurants--title-h2 {
+        font-size: 1.5rem;
+      }
+    .functions__operation-text{
+        font-size: 1.2rem;
+    }
+
+    .functions__operation-icons{
+        font-size: 1.2rem;
+    }
+
+    .functions__operation-circle{
+        width: 2rem;
+        height: 2rem;
+        left: 0.8rem;
+    }
+
+    .functions__operation-elements {
+        padding-left: 50px;
+        gap: 50px;
+        height: 3.8rem;
+      }
+}
+
+//DESKTOP
+@include mediamaxwidth(992px){
+	body{
+		background:red;
+	}
+}
+
