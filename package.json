@@ -2,7 +2,7 @@
   "name": "projet_3_lavoryk_anhelina",
   "version": "1.0.0",
   "description": "Oh my food",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "sass": "sass --watch sass/index.scss:css/index.css sass/resto.scss:css/resto.css"
   },

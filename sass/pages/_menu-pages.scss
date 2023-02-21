@@ -2,7 +2,8 @@
 .header__previous--page-link{
     text-decoration: none;
     color: inherit;
-    margin-left: 1rem;
+    position: absolute;
+    left: 2rem;
     &-icon{
         font-size: 1.3rem;
     }
@@ -33,13 +34,20 @@
     font-family: Shrikhand,"cursive";
 }
 
+.menu__cards{
+    display: flex;
+    flex-direction: column;
+}
+
 .menu__cards-container{
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 1rem;
 }
 
 .menu__cards-title{
+    display: flex;
+    flex-direction: column;
     padding-top: 2rem;
     border-bottom: 0.3rem solid $color-tertiary;
     width: 2.5rem;
@@ -70,7 +78,6 @@
     padding: 0.7rem 1.2rem 0.7rem 1rem;
     gap: 1rem;
     width: 80%;
-
 }
 .menu__cards-dishes{
    display: flex;

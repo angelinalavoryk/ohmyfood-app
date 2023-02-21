@@ -1,9 +1,5 @@
-
 //TABLETTE
 @include mediaminwidth(768px){
-	body{
-		// background:SlateBlue;
-	}
     //loader
     .loader__ring{
         width: 160px;
@@ -89,10 +85,6 @@
 
 //DESKTOP
 @include mediamaxwidth(1023px){
-	body{
-		// background:red;
-	}
-
     //footer
     .footer__nav{
         flex-direction: row;

@@ -321,7 +321,8 @@ body {
 .header__previous--page-link {
   text-decoration: none;
   color: inherit;
-  margin-left: 1rem;
+  position: absolute;
+  left: 2rem;
 }
 .header__previous--page-link-icon {
   font-size: 1.3rem;
@@ -353,13 +354,20 @@ body {
   font-family: Shrikhand, "cursive";
 }
 
+.menu__cards {
+  display: flex;
+  flex-direction: column;
+}
+
 .menu__cards-container {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1rem;
 }
 
 .menu__cards-title {
+  display: flex;
+  flex-direction: column;
   padding-top: 2rem;
   border-bottom: 0.3rem solid #99E2D0;
   width: 2.5rem;
@@ -566,6 +574,34 @@ body {
   }
   .restaurants__cards-link {
     width: 30%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu__order-button {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .header__previous--page-link {
+    display: none;
+  }
+  .menu__cards--title-container {
+    justify-content: space-around;
+  }
+  .menu__cards {
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .menu__cards-container {
+    width: 30%;
+  }
+  .menu__order-container {
+    padding: 4rem;
+  }
+  .menu__order-button {
+    width: 16%;
+    font-size: 1rem;
   }
 }
 
