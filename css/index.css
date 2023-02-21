@@ -594,7 +594,7 @@ body {
     width: 30%;
   }
   .menu__cards--title-container {
-    justify-content: space-around;
+    justify-content: center;
   }
   .menu__order-container {
     padding: 4rem;
