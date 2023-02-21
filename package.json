@@ -4,7 +4,7 @@
   "description": "Oh my food",
   "main": "index.html",
   "scripts": {
-    "sass": "sass --watch sass/index.scss:css/index.css sass/resto.scss:css/resto.css"
+    "sass": "sass --watch sass/index.scss:css/index.css sass/index.scss:css/index.css"
   },
   "repository": {
     "type": "git",

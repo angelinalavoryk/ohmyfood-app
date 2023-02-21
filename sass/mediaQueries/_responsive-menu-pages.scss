@@ -1,7 +1,8 @@
 //TABLETTE 
 @include mediaminwidth(768px){
+    //bouton de commande
     .menu__order-button{
-        width: 25%;
+        width:                  25%;
     }
 }
 
@@ -9,30 +10,32 @@
 
 //DESKTOP
 @include mediamaxwidth(1023px){
+    //fleche retour arrière
     .header__previous--page-link{
-        display: none;
+        display:                none;
     }
 
-    .menu__cards--title-container{
-        justify-content: space-around;
-    }
-
+    //cards
     .menu__cards{
-        flex-direction: row;
-        justify-content: center;
-        gap: 3rem;
+        flex-direction:         row;
+        justify-content:        center;
+        gap:                    3rem;
     }
     .menu__cards-container{
-        width: 30%;
+        width:                  30%;
+    }
+    .menu__cards--title-container{
+        justify-content:        space-around;
     }
 
+    //bouton de commande
     .menu__order-container{
-        padding: 4rem;
+        padding:                4rem;
     }
 
     .menu__order-button{
-        width: 16%;
-        font-size: 1rem;
+        width:                  16%;
+        font-size:              1rem;
     }
 
 }

@@ -585,9 +585,6 @@ body {
   .header__previous--page-link {
     display: none;
   }
-  .menu__cards--title-container {
-    justify-content: space-around;
-  }
   .menu__cards {
     flex-direction: row;
     justify-content: center;
@@ -595,6 +592,9 @@ body {
   }
   .menu__cards-container {
     width: 30%;
+  }
+  .menu__cards--title-container {
+    justify-content: space-around;
   }
   .menu__order-container {
     padding: 4rem;

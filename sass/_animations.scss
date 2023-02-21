@@ -1,28 +1,28 @@
 @keyframes ring{
   0%{
-      transform: rotate(0deg);
-      box-shadow: 1px 5px 2px $color-primary;
+      transform:                rotate(0deg);
+      box-shadow:               1px 5px 2px $color-primary;
   }
 
   50%{
-      transform: rotate(180deg);
-      box-shadow: 1px 5px 2px $color-secondary;
+      transform:                rotate(180deg);
+      box-shadow:               1px 5px 2px $color-secondary;
   }
 
   100%{
-      transform: rotate(360deg);
-      box-shadow: 1px 5px 2px $color-tertiary;
+      transform:                rotate(360deg);
+      box-shadow:               1px 5px 2px $color-tertiary;
   }
 }
 
 @keyframes spinnerOff{
   0%{
-      opacity: 1;
+      opacity:                  1;
   }
 
   100%{
-      opacity: 0;
-      visibility: hidden;
+      opacity:                  0;
+      visibility:               hidden;
   }
 }
   
@@ -30,12 +30,12 @@
 
 @keyframes menu__elements {
   from {
-    transform: translateY(60%);
-    opacity: 0;
+    transform:                translateY(60%);
+    opacity:                  0;
   }
   to {
-    transform: translateY(0%);
-    opacity: 1;
+    transform:                translateY(0%);
+    opacity:                  1;
   }
 }
 
