@@ -211,6 +211,8 @@ body {
   margin-bottom:                        0;
 }
 
+
+//icon heart 
 .restaurants__icon-like--empty {
     position:                           absolute;
     right:                              15px;
@@ -226,7 +228,7 @@ body {
   -webkit-background-clip:              text;
   background-clip:                      text;
   -webkit-text-fill-color:              transparent;
-  transition:                           transform 400ms linear;
+  transition:                           transform 400ms;
   position:                             absolute;
   right:                                15px;
   bottom:                               15px;
@@ -236,6 +238,6 @@ body {
 .restaurants__icon-like--empty:hover {
     + .restaurants__icon-like--full {
         cursor:                         pointer;
-        transform:                      scale(1.1);
+        transform:                      scale(1);
   }
 }
