@@ -241,3 +241,8 @@ body {
         transform:                      scale(1);
   }
 }
+
+//scroll bar
+::-webkit-scrollbar{
+ display: none;
+}

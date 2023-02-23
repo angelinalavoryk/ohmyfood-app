@@ -317,6 +317,10 @@ body {
   transform: scale(1);
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .header__previous--page-link {
   text-decoration: none;
   color: inherit;
@@ -442,6 +446,7 @@ body {
   justify-content: center;
   width: 0%;
   opacity: 0;
+  transform: rotate(0);
   transition-duration: 1s;
 }
 
@@ -449,7 +454,7 @@ body {
   width: 20%;
   opacity: 1;
   cursor: pointer;
-  transform: rotate(0);
+  transform: rotate(1);
 }
 
 .menu__cards--check-icon {
