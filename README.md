@@ -18,8 +18,6 @@ Les animations du site ont été créées en utilisant des transitions CSS et de
 
 - **Chargement en douceur des éléments :** Les éléments du site sont chargés progressivement, créant une expérience de chargement fluide et rapide pour l'utilisateur.
 
-  ![Oh my food](https://github.com/angelinalavoryk/images/blob/main/OhMyFood1.png)
-  ![Oh my food](https://github.com/angelinalavoryk/images/blob/main/OhMyFood2.png)
-  ![Oh my food](https://github.com/angelinalavoryk/images/blob/main/OhMyFood3.png)
+
 
 
